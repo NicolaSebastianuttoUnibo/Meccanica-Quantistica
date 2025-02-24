@@ -49,10 +49,10 @@
   <p>\( (H=h_0+\lambda H_P)\cdot ( \ket{\Psi_n^{(0)}}+\lambda\ket{\Psi_n^{(1)}}+\lambda^2 \ket{\Psi_n^{(2)}}+...)=(E_n^{(0)}+\lambda E_n^{(1)}+\lambda^2 E_n^{(2)}+...)\cdot ( \ket{\Psi_n^{(0)}}+\lambda\ket{\Psi_n^{(1)}}+\lambda^2 \ket{\Psi_n^{(2)}}+...)=H_0 \ket{\Psi_n^{(0)}}\);\(\lambda (H_0 \ket{\Psi_n^{(1)}}+H_P \ket{\Psi_n^{(0)}})=\lambda (E_n^{(0)} \ket{\Psi_n^{(1)}}+E_n^{(1)} \ket{\Psi_n^{(0)}})  \)</p>
   <p>Mi interessano solo le correzioni ortogonali, dato che la componente tangenziale fa zero: stesso concetto di ortogonalizzazione di Gram-Schimidt</p>
 <p>\(E_n^{(j)}=\bra{\Psi_n^{(0)}}H_P\ket{\Psi_n^{(j-1)}}\)</p>
-<p>Prendiamo la nostra funzione imperturbata, prendiamo il nostro pezzettino dell'hamiltoniana nuovo che è un operatore, e calcoliamo i valori medi sulla funzione d'onda imperturbata. La funzione che perturba deve vivere nello spazio di Hilbert \(\ket{\Psi_n^{(\)}}=\sum_k c_k \ket{\Psi_k^{(0)}}\) ma \(c_n=\bra{\Psi_n^{(0)}}\ket{\Psi_n^{(1)}}=0\)</p>
+<p>Prendiamo la nostra funzione imperturbata, prendiamo il nostro pezzettino dell'hamiltoniana nuovo che è un operatore, e calcoliamo i valori medi sulla funzione d'onda imperturbata. La funzione che perturba deve vivere nello spazio di Hilbert \(\ket{\Psi_n^{(0)}}=\sum_k c_k \ket{\Psi_k^{(0)}}\) ma \(c_n=\bra{\Psi_n^{(0)}}\ket{\Psi_n^{(1)}}=0\)</p>
 <p>\(\ket{\Psi_n}=\ket{\Psi_n^{(0)}}+\lambda \sum_{k \neq n}\frac{\bra{\Psi_k^{(0)}H_P\ket{\Psi_n^{(0)}}}}{E_n^{(0)}-E_k^{(0)}} \ket{\Psi_k^{(0)}}+O(\lambda^2)\)</p>
-<p>Secondo ordine perturbativo: \(E_N^{(2)}=\bra{\Psi_n^{(0)}}H_P\ket{\Psi_n^{(1)}}=\sum_{k \neq n} \frac{bra{\Psi_k^{(0)}}H_P\ket{\Psi_n^{(0)}} }{E_n^{(0)}-E_k^{(0)}}\ket{\Psi_m^{(0)}} \)</p>
-<p>\(E_n^{(2)}=E_n^{(0)} +\lambda \langle H_P\rangle_0  +\lambda^2 \sum_{k \neq n} \frac{{\left|bra{\Psi_k^{(0)}}H_P\ket{\Psi_n^{(0)}} \right|}^2}{E_n^{(0)}-E_k^{(0)}} +O(\lambda^3) \)</p>
+<p>Secondo ordine perturbativo: \(E_N^{(2)}=\bra{\Psi_n^{(0)}}H_P\ket{\Psi_n^{(1)}}=\sum_{k \neq n} \frac{\bra{\Psi_k^{(0)}}H_P\ket{\Psi_n^{(0)}} }{E_n^{(0)}-E_k^{(0)}}\ket{\Psi_m^{(0)}} \)</p>
+<p>\(E_n^{(2)}=E_n^{(0)} +\lambda \langle H_P\rangle_0  +\lambda^2 \sum_{k \neq n} \frac{{\left|\bra{\Psi_k^{(0)}}H_P\ket{\Psi_n^{(0)}} \right|}^2}{E_n^{(0)}-E_k^{(0)}} +O(\lambda^3) \)</p>
 
 
 
