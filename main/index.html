@@ -93,6 +93,42 @@ fisico è acquisita da un osservatore.</p>
 <p>\(\left[H,P_{ij}\right]=0\)</p>
 <p>Sia \(H\ket{\Psi_1,...,\Psi_N}=E\ket{\Psi_1,...,\Psi_N}\)</p>
 <p>\(P_{ij}=(P_{1i}P_{2j})P_{12}(P_{1i}P_{2j})\)</p>
- 
+ <p>____________________________</p>
+    <p><strong>Teorema della spin statistica</strong> i bosoni sono particelle di spin intero (trasportano interazione), mentre i fermmioni hanno spin semiintero. </p>
+    <p>gli stati fermionici se abbiamo n  particelle li possiamo sempre scrivere come se fosse determinante: scambiare le particelle in un sistema vuol dire che cambiare le righe di di un determinante e quindi cambia segno. Determinante di Slater: ci si riferisce a questo determinante</p>
+    <h3>Atomo di elio</h3>
+    <h4>Metodo variazionale</h4>
+    <p><trong>Teorema: </trong>dato un qualunque stato \(\ket{\Psi} \in \(\mathsrc{H}\) in un sistema hamiltoniana H normalizzabile E_0\) (energia dello stato fondamentale) \(\le \rangle H\ rangle_{\Psi}=\bra{\Psi}H \ket{\Psi}\)</p>
+    <p>\(H \ket{\Psi_k}=E_k \ket{\Psi_k}\)</p>
+    <p>\( \ket{\Psi}=\sum_k c_k  \ket{\Psi_k}\) con \(\sum \left| c_k \right|^2=1\)</p>
+    ....
+    <p>\(\langle H\rangle_{\Psi}\ge E_0\)</p>
+    <p>predniamo una funzione d'onda \(\Psi (q,a)\) dove q sono le coordinate e a sono i parametri</p>
+    <p>\(R(a)\equiv \langle H\rangle_{\Psi (a)}=\int d^N q \Psi (q,a)* H\Psi (q,a)\)</p>
+    <p>\frac{d R(a)}{da}=0</p>
+    <p>il valore minimo di R(a) sarà preso come il valore approssimato, per eccesso, di \(E-0\)</p>
+    <h5>Atomo di elio</h5>
+    <p>abbiamo 2 elettroni e 2 protoni</p>
+    <p>\(H=\frac{p_1^2}{2m_e}-\frac{2e^2}{r_1}+\frac{p_2^2}{2m_e}-\frac{2e^2}{r_2}+\underbrace{\frac{e^2}{\left|r_1-r_2\right|^2}}_{termine repulsivo}\)</p>
+    <p>\(H=\underbrace{H_1+H_2}_{i due termini idrogenoidi}+\underbrace{V_{repulsivo}}_{la perturbazione}\)</p>
+    <p>\(E_f^{(0)}=0 E_H\)</p>
+    <p>\(E_f=E_f^{(0)}+\langle V_{rep}\rangle_{\Psi_f^{(0)}}\)</p>
+    <p>\(\Psi_f^{(0)}=\frac{4 e^2}{\pi a^3} \int \frac{e^{-4/a (r_1+r_2}}{|x_1-x_2|}d^3x_1d^3x_2\)</p>
+    <p>...</p>
+    <p>\( V_{rep}\rangle_{\Psi_f^{(0)}}=-\frac{5}{2} E_H\)</p>
+    <p>Non è preciso, c'è un 5% di errore, quindi quello che abbiamo fatto non è preciso: infatti non siamo sotto la condizione \(\langle V_{rep}\rangle \ll \langle H_0\rangle\)</p>
+    <p>Per questo dobbiamo introdurre il metodo variazionale</p>
+    <p>\(\Psi_f^{(0)}=\frac{Z^3}{\pi a^3}e^{-Z/a (r_1+r_2)\)</p
+    <p>Possimao prendere Z  variabile. Nell'atomo di elio, i due elettroni quando girano nel nucleo, quando questi sono vicini la repulsione è molto alta. In media mi posso sedere su uno dei due elettroni e sento sia il campo del protone e a volte mi passa davanti l'altro elettrone che mi scherma la positività. Con un \(1 \le Z \le 2\) avviene il fenomeno dell schermatura</p>
+    <p>\(H_0 (Z) =\frac{p_1^2+p_2^2}{2 m_e}-Ze^2 \left( \frac{1}{r_1}+\frac{1}{r_2}\right)\)</p>
+    <p>\(H=\left \frac{p_1^2}{2m_R}+\frac{p_2^2}{2m_R}-\frac{Ze^2}{r_1}-\frac{Ze^2}{r_2}\right)+e^2\left \frac{Z-2}{r_1}+\frac{Z-2}{r_2}+\frac{1}{|r_1-r_2|} \right)\)</p>
+    <p>\(R(Z)=\langle H\rangle_{\Psi_f^{(0)}(Z)}\)</p>
+  <p>  \langle V_{rep}\rangle_{\Psi_f^{(0)}(Z)}=-\frac{5Z}{4} E_H</p>
+    <p>...\(\  Z=\frac{27}{16} \)</p>
+    <p>Siamo arrivati al 2% dell'errore mantenendo solo al primo ordine dei termini di perturbazione</p>
+    <h3>Campi elettromagnetici in MQ</h3>
+    <p>forza di Lorentz: \(F=q\left( E+\frac{v}{c}\times B\right)\)</p>
+    <p>\(E=-\nabla \Phi -1/c \frac{\partial A}{\partial t}\)</p>
+    <p>\(B=\nabla \times A\)</p>
 </body>
 </html>
